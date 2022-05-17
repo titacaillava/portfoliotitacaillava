@@ -1,0 +1,1177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #191919;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#nombre{
+    position: absolute;
+    width: 293px;
+    height: 69px;
+    left: 168px;
+    top: 51px;
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+
+#li-escenografias{
+    position: absolute;
+    width: 100px;
+    height: 22px;
+    left: 712px;
+    top: 61px;
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+#li-galeria{
+    position: absolute;
+    width: 52px;
+    height: 22px;
+    left: 847px;
+    top: 61px;
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+#li-planos{
+    position: absolute;
+    width: 50px;
+    height: 22px;
+    left: 934px;
+    top: 61px;
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+}
+
+#li-objetos{
+    position: absolute;
+    width: 56px;
+    height: 22px;
+    left: 1019px;
+    top: 61px;
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+
+#li-intervenciones{
+    position: absolute;
+    width: 105px;
+    height: 22px;
+    left: 1110px;
+    top: 61px;
+    
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+        
+    color: #FFFFFF;
+}
+
+#li-ilustraciones{
+    position: absolute;
+    width: 85px;
+    height: 22px;
+    left: 1250px;
+    top: 61px;
+    
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #FFFFFF;
+}
+
+.logoAvatar{
+    position: absolute;
+    width: 409px;
+    height: 353px;
+    left: 110px;
+    top: 205px;
+    z-index: 100;
+}
+
+.sobreMi{
+    position: absolute;
+    width: 172px;
+    height: 44px;
+    left: 605px;
+    top: 233px;
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.texto_sobreMi{
+    position: absolute;
+    width: 757px;
+    height: 233px;
+    left: 605px;
+    top: 288px;
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.button-cv{
+    position: absolute;
+    width: 323px;
+    height: 48px;
+    left: 870px;
+    top: 584px;
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+
+    color: #FFFFFF;
+}
+
+.button-marco{
+    position: absolute;
+    width: 404px;
+    height: 63px;
+    left: 759px;
+    top: 576px;
+
+    border: 3px solid #FFFFFF;
+    border-radius: 40px;
+}
+
+.img-tvprensa{
+    top: 963px;
+}
+.img-losPrimeros{
+    top: 1389px;
+}
+.img-miguelMartin{
+    top: 1813px;
+}
+.img-laCaja{
+    top: 2239px;
+}
+.img-tvprensa, .img-losPrimeros, .img-miguelMartin, .img-laCaja{
+    position: absolute;
+    width: 569px;
+    height: 327px;
+    left: 117px;
+
+    border-radius: 0px 30px;
+}
+
+.titulo-escenografias{
+    position: absolute;
+    width: 674px;
+    height: 76px;
+    left: 331px;
+    top: 850px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    
+    color: #FFFFFF;
+}
+
+.firulete1{
+    position: absolute;
+left: 1%;
+right: -31.71%;
+top: 2%;
+bottom: 76.16%;
+
+opacity: 0.9;
+transform: rotate(16.92deg);
+    
+}
+
+.titulo-tvprensa{
+    top: 972px;
+}
+.titulo-losPrimeros{
+    top: 1398px;
+}
+.titulo-miguelMartin{
+    top: 1822px;
+}
+.titulo-laCaja{
+    top: 2248px;
+}
+.titulo-tvprensa, .titulo-losPrimeros, .titulo-miguelMartin, .titulo-laCaja{
+    position: absolute;
+    height: 35px;
+    left: 739px;
+    
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+}
+
+.descripcion-tvprensa{
+    position: absolute;
+    width: 419px;
+    height: 30px;
+    left: 739px;
+    top: 1025px;
+
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.descripcion-texto{
+    position: absolute;
+    width: 593px;
+    height: 113px;
+    left: 739px;
+    top: 1074px;
+
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+#button-tvprensa{
+    position: absolute;
+    width: 171px;
+    height: 44px;
+    left: 800px;
+    top: 1227px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 49px;
+
+    color: #FFFFFF;
+}
+
+#borde-button-tvprensa{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 232px;
+    height: 59px;
+    left: 739px;
+    top: 1222px;
+
+    border: 3px solid #E0BC52;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    z-index: 11;
+}
+
+#sombra-button-tvprensa{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 343px;
+    height: 59px;
+    left: 769px;
+    top: 1244px;
+
+    background: #E0BC52;
+    border: 1px solid #000000;
+    
+    filter: blur(3px);
+    opacity: 10%;
+
+    border-radius: 40px;
+}
+
+.descripcion-losPrimeros{
+    position: absolute;
+    width: 419px;
+    height: 30px;
+    left: 739px;
+    top: 1451px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.descripcion-texto-losPrimeros{
+    position: absolute;
+    width: 593px;
+    height: 113px;
+    left: 739px;
+    top: 1510px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+#borde-button-losPrimeros{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 232px;
+    height: 59px;
+    left: 739px;
+    top: 1648px;
+
+    border: 3px solid #E0BC52;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    z-index: 10;
+}
+
+#sombra-button-losPrimeros{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 343px;
+    height: 59px;
+    left: 769px;
+    top: 1670px;
+
+    background: rgba(73, 59, 41, 0.5);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: blur(4px);
+
+    border-radius: 40px;
+}
+
+#button-losPrimeros{
+    position: absolute;
+    width: 171px;
+    height: 44px;
+    left: 800px;
+    top: 1653px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 49px;
+
+    color: #FFFFFF;
+}
+
+.descripcion-miguelMartin{
+    position: absolute;
+    width: 419px;
+    height: 30px;
+    left: 739px;
+    top: 1875px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.descripcion-texto-miguelMartin{
+    position: absolute;
+    width: 593px;
+    height: 113px;
+    left: 739px;
+    top: 1930px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+#borde-button-miguelMartin{
+    position: absolute;
+    width: 232px;
+    height: 59px;
+    left: 739px;
+    top: 2072px;
+
+    background: #191919;
+    border: 3px solid #E0BC52;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+#sombra-button-miguelMartin{
+    position: absolute;
+    width: 343px;
+    height: 59px;
+    left: 769px;
+    top: 2094px;
+    
+    background: rgba(73, 59, 41, 0.5);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: blur(4px);
+    
+    border-radius: 40px;
+}
+
+#button-miguelMartin{
+    position: absolute;
+    width: 171px;
+    height: 44px;
+    left: 800px;
+    top: 2077px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 49px;
+    
+    color: #FFFFFF;
+}
+
+.descripcion-laCaja{
+    position: absolute;
+    width: 419px;
+    height: 30px;
+    left: 739px;
+    top: 2301px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.descripcion-texto-laCaja{
+    position: absolute;
+    width: 593px;
+    height: 113px;
+    left: 739px;
+    top: 2354px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+#borde-button-laCaja{
+    position: absolute;
+    width: 232px;
+    height: 59px;
+    left: 739px;
+    top: 2502px;
+
+    background: #191919;
+    border: 3px solid #E0BC52;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+#sombra-button-laCaja{
+    position: absolute;
+    width: 343px;
+    height: 59px;
+    left: 769px;
+    top: 2524px;
+    
+    background: rgba(73, 59, 41, 0.5);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: blur(4px);
+    
+    border-radius: 40px;
+}
+
+#button-laCaja{
+    position: absolute;
+    width: 171px;
+    height: 44px;
+    left: 800px;
+    top: 2507px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 49px;
+    
+    color: #FFFFFF;
+}
+
+.firulete2{
+    position: absolute;
+    left: 1%;
+    right: -31.71%;
+    top: 138%;
+    bottom: 76.16%;
+    left: -10px;
+
+    opacity: 0.9;
+    transform: rotate(210deg);
+    z-index: -100;
+}
+
+.titulo-galeria{
+    position: absolute;
+    width: 450px;
+    height: 76px;
+    left: 422px;
+    top: 2661px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #FFFFFF;
+}
+
+.descripcion-galeria{
+    position: absolute;
+    width: 777px;
+    height: 41px;
+    left: 259px;
+    top: 2714px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+}
+
+.contenedor-galeria{
+    display: flex;
+    position: absolute;
+    width: 1002px;
+    height: 1250px;
+    left: 200px;
+    top: 2800px;
+    background-color: #333333;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.galeria{
+    position: relative;
+    width: 230px;
+    height: 140px;
+}
+
+.galeria:hover{
+    transform: scale(2);
+    z-index: 150;
+}
+
+.div-tvp, .div-losPrimeros, .div-miguelMartin, .div-laCaja, .div-jxb, .div-musas, .div-masDiez, .div-dbf{
+    display: flex;
+    position: relative;
+    width: 1002px;
+    justify-content: space-evenly;
+    top: 10px;
+}
+
+.titulo-diseños{
+    position: absolute;
+    width: 900px;
+    height: 53px;
+    left: 400px;
+    top: 4116px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #FFFFFF;
+}
+
+.descripcion-diseños{
+    position: absolute;
+    width: 777px;
+    height: 41px;
+    left: 298px;
+    top: 4159px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.contenedor-diseños{
+    display: flex;
+    position: absolute;
+    
+    width: 1002px;
+    height: 2200px;
+    left: 205px;
+    top: 4225px;
+    background-color: #333333;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.div-galeria-diseños-uno, .div-galeria-diseños-dos, .div-galeria-diseños-tres, .div-galeria-diseños-cuatro, .div-galeria-diseños-cinco, .div-galeria-diseños-seis, .div-galeria-diseños-siete, .div-galeria-diseños-ocho, .div-galeria-diseños-nueve, .div-galeria-diseños-diez, .div-galeria-diseños-once, .div-galeria-diseños-doce, .div-galeria-diseños-trece, .div-galeria-diseños-catorce{
+    display: flex;
+        position: relative;
+        width: 1002px;
+        justify-content: space-evenly;
+        
+}
+
+.titulo-objetos{
+    position: absolute;
+    width: 204px;
+    height: 48px;
+    left: 575px;
+    top: 6525px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+    
+    color: #FFFFFF;
+}
+
+.img-objetos-tapir{
+    position: absolute;
+    width: 569px;
+    height: 327px;
+    left: 117px;
+    top: 6607px;
+
+    border-radius: 0px 30px;
+}
+
+.titulo-verdoso-tapir{
+    position: absolute;
+    width: 91px;
+    height: 30px;
+    left: 752px;
+    top: 6669px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #fcfdfc;
+    background-color: rgb(21, 151, 108);
+    border-radius: 5px;
+}
+
+.descripcion-animal-tapir{
+    position: absolute;
+    width: 419px;
+    height: 30px;
+    left: 752px;
+    top: 6720px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #fefffe;
+}
+
+.descripcion-texto-proyecto-tapir{
+    position: absolute;
+    width: 700px;
+    height: 113px;
+    left: 752px;
+    top: 6770px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.img-objetos-suri{
+    position: absolute;
+    width: 569px;
+    height: 327px;
+    left: 117px;
+    top: 7033px;
+
+    border-radius: 0px 30px;
+}
+
+.titulo-verdoso-suri{
+    position: absolute;
+    width: 91px;
+    height: 30px;
+    left: 752px;
+    top: 7088px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #fcfdfc;
+    background-color: rgb(21, 151, 108);
+    border-radius: 5px;
+}
+
+.descripcion-animal-suri{
+    position: absolute;
+    width: 419px;
+    height: 30px;
+    left: 752px;
+    top: 7141px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #fefffe;
+}
+
+.descripcion-texto-proyecto-suri{
+    position: absolute;
+    width: 700px;
+    height: 113px;
+    left: 752px;
+    top: 7190px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.img-objetos-organicos{
+    position: absolute;
+    width: 569px;
+    height: 327px;
+    left: 117px;
+    top: 7459px;
+
+    border-radius: 0px 30px;
+}
+
+.titulo-verdoso-organicos{
+    position: absolute;
+    width: 91px;
+    height: 30px;
+    left: 752px;
+    top: 7514px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #fcfdfc;
+    background-color: rgb(21, 151, 108);
+    border-radius: 5px;
+}
+
+.descripcion-animal-organicos{
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 752px;
+    top: 7567px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #fefffe;
+}
+
+.descripcion-texto-proyecto-organicos{
+    position: absolute;
+    width: 700px;
+    height: 113px;
+    left: 752px;
+    top: 7616px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.img-objetos-clasicos{
+    position: absolute;
+    width: 569px;
+    height: 327px;
+    left: 117px;
+    top: 7885px;
+
+    border-radius: 0px 30px;
+}
+
+.titulo-verdoso-clasicos{
+    position: absolute;
+    width: 91px;
+    height: 30px;
+    left: 752px;
+    top: 7940px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #fcfdfc;
+    background-color: rgb(21, 151, 108);
+    border-radius: 5px;
+}
+
+.descripcion-animal-clasicos{
+    position: absolute;
+    width: 650px;
+    height: 30px;
+    left: 752px;
+    top: 7993px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #fefffe;
+}
+
+.descripcion-texto-proyecto-clasicos{
+    position: absolute;
+    width: 700px;
+    height: 113px;
+    left: 752px;
+    top: 8042px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.titulo-galeria-muñecos{
+    position: absolute;
+    width: 900px;
+    height: 53px;
+    left: 400px;
+    top: 8295px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #FFFFFF;
+}
+
+.descripcion-galeria-muñecos{
+    position: absolute;
+    width: 777px;
+    height: 41px;
+    left: 224px;
+    top: 8348px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.contenedor-galeria-muñecos{
+    display: flex;
+    position: absolute;
+    
+    width: 1002px;
+    height: 600px;
+    left: 112px;
+    top: 8405px;
+    background-color: #333333;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.div-aguayos, .div-etiqueta, .div-moldes, .div-osos{
+    display: flex;
+        position: relative;
+        width: 1002px;
+        justify-content: space-evenly;
+        
+}
+
+.titulo-intervenciones{
+    position: absolute;
+    width: 345px;
+    height: 48px;
+    left: 530px;
+    top: 9191px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #FFFFFF;
+}
+
+.img-objetos-mural{
+    top: 9309px;
+}
+.img-objetos-mural3d{
+    top: 9735px;
+}
+.img-objetos-conejo{
+    top: 10161px;
+}
+.img-objetos-mancha{
+    top: 10587px;
+}
+.img-objetos-mural, .img-objetos-mural3d, .img-objetos-conejo, .img-objetos-mancha{
+    position: absolute;
+    width: 569px;
+    height: 327px;
+    left: 130px;
+    border-radius: 0px 30px;
+}
+
+.titulo-stenbitch{
+    top: 9364px;
+}
+.titulo-stenbitch-mural3d{
+    top: 9790px;
+}
+.titulo-stenbitch-conejo{
+    top: 10216px;
+}
+.titulo-stenbitch-mancha{
+    top: 10642px;
+}
+.titulo-stenbitch, .titulo-stenbitch-mural3d, .titulo-stenbitch-conejo, .titulo-stenbitch-mancha{
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    left: 752px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+
+.descripcion-mural{
+    top: 9437px;
+}
+.descripcion-mural3d{
+    top: 9843px;
+}
+.descripcion-conejo{
+    top: 10269px;
+}
+.descripcion-mancha{
+    top: 10695px;
+}
+.descripcion-mural, .descripcion-mural3d, .descripcion-conejo, .descripcion-mancha{
+    position: absolute;
+    width: 519px;
+    height: 30px;
+    left: 752px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #FFFFFF;
+}
+
+.descripcion-texto-mural{
+    top: 9480px;
+}
+.descripcion-texto-mural3d{
+    top: 9892px;
+}
+.descripcion-texto-conejo{
+    top: 10358px;
+}
+.descripcion-texto-mancha{
+    top: 10784px;
+}
+.descripcion-texto-mural, .descripcion-texto-mural3d, .descripcion-texto-conejo, .descripcion-texto-mancha{
+    position: absolute;
+    width: 693px;
+    height: 113px;
+    left: 752px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+
+.titulo-galeria-ilustraciones{
+    position: absolute;
+    width: 610px;
+    height: 53px;
+    left: 475px;
+    top: 11083px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #FFFFFF;
+}
+
+.descripcion-galeria-ilustraciones{
+    position: absolute;
+    width: 777px;
+    height: 41px;
+    left: 342px;
+    top: 11136px;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    
+    color: #FFFFFF;
+}
+
+.contenedor-galeria-ilustraciones{
+    display: flex;
+    position: absolute;
+    
+    width: 1002px;
+    height: 700px;
+    left: 205px;
+    top: 11194px;
+    background-color: #333333;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.div-ilustraciones-uno, .div-ilustraciones-dos, .div-ilustraciones-tres, .div-ilustraciones-cuatro, .div-ilustraciones-cinco{
+    display: flex;
+    position: relative;
+    width: 1002px;
+    justify-content: space-evenly;
+}
+
+.firulete1{
+    position: absolute;
+left: 1%;
+right: -31.71%;
+top: 2%;
+bottom: 76.16%;
+
+opacity: 0.9;
+transform: rotate(16.92deg);
+    
+}
+
